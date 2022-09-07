@@ -1,0 +1,7 @@
+<main class="d-flex  flex-wrap justify-content-center align-items-center main" [ngStyle]="{'background-color': color}">
+    
+    <input type="text" [(ngModel)]="red" placeholder="00" (keyup)="check()">
+    <input type="text" [(ngModel)]="green" placeholder="00" (keyup)="check()">
+    <input type="text" [(ngModel)]="blue" placeholder="00" (keyup)="check()">
+</main>
+<div class="bg-primary text-light bg">Enter RGB Value (0-255) ({{color}})</div>
